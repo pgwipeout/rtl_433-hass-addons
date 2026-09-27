@@ -21,7 +21,7 @@ WORKDIR /build
 
 FROM builder as rtl_433_builder
 
-RUN git clone https://github.com/merbanan/rtl_433
+RUN git clone https://github.com/pgwipeout/rtl_433
 WORKDIR ./rtl_433
 
 # Build a specific commit or tag.
